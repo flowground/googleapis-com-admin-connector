@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "properties": {
+        "customerId": {
+            "type": "string"
+        },
+        "date": {
+            "required": true,
+            "type": "string"
+        },
+        "pageToken": {
+            "type": "string"
+        },
+        "parameters": {
+            "type": "string"
+        },
+        "prettyPrint": {
+            "type": "boolean",
+            "default": true
+        },
+        "quotaUser": {
+            "type": "string"
+        },
+        "userIp": {
+            "type": "string"
+        }
+    }
+}

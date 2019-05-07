@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "customerId": {
+            "type": "string"
+        },
+        "date": {
+            "required": true,
+            "type": "string"
+        },
+        "filters": {
+            "type": "string"
+        },
+        "maxResults": {
+            "type": "integer",
+            "maximum": 1000
+        },
+        "orgUnitID": {
+            "type": "string",
+            "default": ""
+        },
+        "pageToken": {
+            "type": "string"
+        },
+        "parameters": {
+            "type": "string"
+        },
+        "userKey": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

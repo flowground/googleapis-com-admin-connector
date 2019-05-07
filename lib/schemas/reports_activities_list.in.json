@@ -1,0 +1,43 @@
+{
+    "type": "object",
+    "properties": {
+        "actorIpAddress": {
+            "type": "string"
+        },
+        "applicationName": {
+            "required": true,
+            "type": "string"
+        },
+        "customerId": {
+            "type": "string"
+        },
+        "endTime": {
+            "type": "string"
+        },
+        "eventName": {
+            "type": "string"
+        },
+        "filters": {
+            "type": "string"
+        },
+        "maxResults": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000
+        },
+        "orgUnitID": {
+            "type": "string",
+            "default": ""
+        },
+        "pageToken": {
+            "type": "string"
+        },
+        "startTime": {
+            "type": "string"
+        },
+        "userKey": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

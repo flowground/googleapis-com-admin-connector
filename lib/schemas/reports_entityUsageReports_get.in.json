@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "customerId": {
+            "type": "string"
+        },
+        "date": {
+            "required": true,
+            "type": "string"
+        },
+        "entityKey": {
+            "required": true,
+            "type": "string"
+        },
+        "entityType": {
+            "required": true,
+            "type": "string"
+        },
+        "filters": {
+            "type": "string"
+        },
+        "maxResults": {
+            "type": "integer",
+            "maximum": 1000
+        },
+        "pageToken": {
+            "type": "string"
+        },
+        "parameters": {
+            "type": "string"
+        }
+    }
+}
